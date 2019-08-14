@@ -1,0 +1,75 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  height: 100%;
+}
+body {
+  background: #ffffff;
+  color: olivedrab;
+  height: 100%;
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+          box-sizing:border-box;
+}
+
+a{
+  text-decoration:none
+}
+
+#study {
+  width: 300px;
+  height: 300px;
+  background-color: #09c;
+}
+
+body #study {
+  border-bottom: 2px solid #000000; }
+
+#app {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  color: red;
+}
+#app .app-info {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #90c;
+  text-indent: 2em;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#app .img {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  background: url(../img/a3e527f35247220d8fc365986442c8a5.png) no-repeat;
+  background-size: 100%;
+}
+#app .router-link {
+  margin-top: 20px;
+}
+#app .router-link a {
+  padding: 4px 6px;
+  font-size: 16px;
+  color: #000000;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+}
+#app .router-link a.is-active {
+  background: #aaaaaa;
+  border: 1px solid #aaaaaa;
+}
+#app .router-view {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #aaaaaa;
+}
+
